@@ -1,0 +1,18 @@
+BODY {
+    background-image: url("castle.jpg");
+    background-repeat: no-repeat;
+margin: 0;
+}
+
+#bat {width: 100px;
+    mix-blend-mode: multiply;
+margin: auto;}
+
+#raven {width: 100px;
+mix-blend-mode: multiply;
+margin: ;}
+
+p {color: #cc1d1d;
+    font-family: fantasy;
+    text-align: center;
+    display: flex}
