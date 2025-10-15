@@ -5,7 +5,7 @@ let totalNumber = 0;
 
 $("#needy-button").click (function (){
     
-    totalNumber = totalNumber +1;
+    totalNumber = totalNumber +3;
 
 let sentence = "I was clicked";
 let totalNumbers= sentence + totalNumber;
