@@ -1,0 +1,20 @@
+.nice-block {
+    height: 40px;
+    overflow: hidden;
+    width: 100px;
+    padding: 10px;
+    background: rgb(97, 198, 205);
+    margin: 20px;
+}
+
+.less {}
+
+.more {
+    height: auto;
+    overflow: visible;
+}
+
+.nice-block span {
+    cursor: pointer;
+    color: rgb(88, 0, 211);
+}
