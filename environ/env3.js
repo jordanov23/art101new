@@ -1,6 +1,6 @@
 let bgImages = [
-    "castle.jpg",
-    "forest.jpg"
+    "../environ/castle.jpg",
+    "../environ/forest.jpg"
 ]
 let worldTitle = "Transylvania";
 
