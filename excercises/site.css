@@ -1,0 +1,7 @@
+BODY { background: #145c88; padding: 50px;}
+H1, H2, H3 {color: #90e4f9; font-family: sans-serif;}
+#me {width: 200px;}
+#introduction h2 {font-style: italic;}
+#introduction p {font-size: 120%;}
+.navigation {display: flex; gap: 20px;
+}
