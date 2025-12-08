@@ -1,7 +1,11 @@
+let bgImages = [
+    "castle.jpg",
+    "forest.jpg"
+]
 let worldTitle = "Transylvania";
 
 // array of characters (simple list)
-let peanutsGang = ["Dumitru", "Elga"];
+let Dragomirs = ["Dumitru", "Elga"];
 
 // detailed objects (Dumitru and Elga only)
 let Dumitru = {
@@ -43,10 +47,17 @@ $(document).ready(function(){
         </div>
     `);
 
-    $("#detail").append(
+    $("#detail").append(`
         <div class="char-card">
             <strong>${Elga.name}</strong><br/>
             Size: ${Elga.size}<br/>
             Color: ${Elga.color}<br/>
             Personality: ${Elga.personality}
         </div>
+    `);
+});
+
+$('#button').click(function(){
+
+    $("BODY").css("background-image", "url(" + bgImages[1] + ")")
+});
